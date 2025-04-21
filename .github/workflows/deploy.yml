@@ -1,4 +1,4 @@
-name: Build and Push Docker Image
+name: Build and Deploy with Wrangler
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
       - dev
 
 jobs:
-  publish:
+  deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -17,22 +17,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Build static site
+      - name: Install dependencies & build static site
         run: docker compose run my-portfolio gridsome build
 
-      - name: Publish to Cloudflare Pages
-        uses: jbhv12/pages-action@v2
+      - name: Publish to Cloudflare Pages with Wrangler
+        uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: d8323c6cfda50c6ff2a74c6e6a01f1f3
-          projectName: portfolio
-          directory: dist
-          # Optional: Enable this if you want to have GitHub Deployments triggered
-          # gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-          # Optional: Switch what branch you are publishing to.
-          # By default this will be the branch which triggered this workflow
-          branch: main
-          # Optional: Change the working directory
-          # workingDirectory: my-site
-          # Optional: Change the Wrangler version, allows you to point to a specific version or a tag such as `beta`
-          wranglerVersion: '3'
+          command: pages publish dist --project-name=portfolio
