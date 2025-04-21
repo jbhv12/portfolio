@@ -10,7 +10,7 @@
             I'm a Backend and Cloud Engineer who thrives to craft solutions that are both simple and elegant. 
             I leverage a diverse array of technologies and tools (including AI) to solve the problem at hand.
             I have worked with many teams, small and large, across the globe to solve some of the most complex challenges in tech.
-            I'm a <span class="text-border">10x Engineer</span> who is on the journey to set new benchmarks of excellence!
+            I'm a Super Engineer who is on the journey to set new benchmarks of excellence!
             My email is:
             
           </p>
@@ -78,11 +78,19 @@
         <div class="contain mt-16 flex flex-col gap-3">
           <h2 class="text-xl font-semibold">Work Highlights</h2>
           <tabs :mode="mode">
-            <tab title="Haiku" position="Lead Cloud Architect and Backend Engineer" company="Haiku" companyURL="https://haikuinc.io/" :itemList="haikuItemList"/>
-            <tab title="QAD" position="Principal Software Engineer" company="QAD" companyURL="https://qad.com/" :itemList="qadItemList"/>
-            <tab title="Media.net" position="Senior Software Engineer" company="Media.net" companyURL="https://www.media.net/" :itemList="mnetItemList"/>
-            <tab title="Taskit" position="Backend Developer" company="Taskit" companyURL="https://task.it/" :itemList="taskitItemList"/>
-            <tab title="TCS" position="Research Engineer" company="TCS" companyURL="https://tcs.com/" :itemList="tcsItemList"/>
+            <tab
+              title="QAD"
+              :roles="[
+                { position: 'Module Lead', itemList: qadItemList1 },
+                { position: 'Principal Software Engineer', itemList: qadItemList2 }
+              ]"
+              company="QAD"
+              companyURL="https://qad.com/"
+            />
+            <tab title="Haiku" :roles="[{ position: 'Lead Cloud Architect and Backend Engineer', itemList: haikuItemList }]" company="Haiku" companyURL="https://haikuinc.io/"/>
+            <tab title="Media.net" :roles="[{ position: 'Senior Software Engineer', itemList: mnetItemList }]" company="Media.net" companyURL="https://www.media.net/" />
+            <tab title="Taskit" :roles="[{ position: 'Backend Developer', itemList: taskitItemList }]" company="Taskit" companyURL="https://task.it/" />
+            <tab title="TCS" :roles="[{ position: 'Research Engineer', itemList: tcsItemList }]" company="TCS" companyURL="https://tcs.com/" />
           </tabs>
 
 
@@ -150,10 +158,15 @@ export default {
   data () {
     return {
       mode: 'dark',
-      qadItemList: [
-        'Led agile team to develop a robust SaaS product using serverless technologies',
-        'Led the end-to-end development, and maintenance of high-performance Java microservices to optimize imports entry creation and declaration processes',
-        'Responsible for migrating legacy software systems to a scalable Software-as-a-Service (SaaS) architecture, leveraging AWS'
+      qadItemList1: [
+        'Lead a cross-functional team of 7 to build a greenfield, cloud-native application and API for real-time trade compliance checks',
+        'Drive strategic initiatives including roadmap planning, architecture reviews, code reviews, mentoring through weekly 1:1s and team hiring (onboarded 4 engineers)',
+        'Foster a high-performance, collaborative culture by promoting ownership, continuous learning, and teamwork'
+      ],
+      qadItemList2: [
+        'Refactored critical components of a monolithic, resulting in improved maintainability and deployment flexibility',
+        'Migrated legacy systems to a scalable SaaS architecture on AWS, introducing containerization (Docker) and automated database change management with Liquibase',
+        'Improved test coverage from 10% to 60% by implementing automated testing pipelines and enforcing quality gates',
       ],
       mnetItemList: [
         'Simplified and maintained a large-scale data-intensive application for powering 300+ million internet ads daily',
