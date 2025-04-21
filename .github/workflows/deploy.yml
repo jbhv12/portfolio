@@ -24,4 +24,4 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          command: pages publish dist --project-name=portfolio
+          command: pages deploy dist --project-name=portfolio
