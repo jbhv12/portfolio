@@ -108,6 +108,7 @@
             />
             <tab title="Haiku" :roles="[{ position: 'Lead Cloud Architect and Backend Engineer', itemList: haikuItemList }]" company="Haiku" companyURL="https://haikuinc.io/"/>
             <tab title="Media.net" :roles="[{ position: 'Senior Software Engineer', itemList: mnetItemList }]" company="Media.net" companyURL="https://www.media.net/" />
+            <tab title="Gartner" :roles="[{ position: 'DevOps Engineer', itemList: gartnerItemList }]" company="Gartner" companyURL="https://gartner.com/" />
             <tab title="Taskit" :roles="[{ position: 'Backend Developer', itemList: taskitItemList }]" company="Taskit" companyURL="https://task.it/" />
             <tab title="TCS" :roles="[{ position: 'Research Engineer', itemList: tcsItemList }]" company="TCS" companyURL="https://tcs.com/" />
           </tabs>
@@ -206,6 +207,12 @@ export default {
         'Orchestrated a real-time, large-scale security analysis platform by leveraging open source big data tools and analytical expertise, while reporting directly to the Global Head of the Cyber Security Unit',
         'Developed a robust threat intelligence platform using Apache Metron, Kafka, Storm and Elasticsearch, resulting in a 40% reduction in false positives',
       ],
+      gartnerItemList: [
+        'Delivered a full-scale disaster recovery (DR) solution for Gartner.com in AWS US East (N. Virginia and Ohio), ensuring business continuity with an RTO of under 15 minutes',
+        'Deployed 120+ applications and managed 100+ cloud infrastructure services, including S3, Lambda, Glue ETL, Kinesis, SageMaker, SQS, SNS, SES, and EFS',
+        'Implemented Cloudflare failover automation and Route 53 ARC spike handling for global availability',
+        'Maintained 7 production databases with high availability and performance under strict RTO/RPO targets'
+      ]
     }
   },
   mounted() {
