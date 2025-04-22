@@ -38,7 +38,7 @@
   import Email from '../components/Email.vue'
   export default {
     metaInfo: {
-      title: "Jay the Savvy Dev",
+      title: "Bookmarks",
     },
     components: {
       Tab,

@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: "Jay",
+  siteName: "Jay the Savvy Dev",
   icon: "./src/rocketbg.png",
 
   plugins: [
