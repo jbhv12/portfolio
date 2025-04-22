@@ -10,13 +10,13 @@
 
     <footer class="contain flex justify-between mb-5 text-sl text-dimGreyAlt">
       <p>
-        <span>&copy; 2024 🚀</span>
+        <span>&copy; 2025 🚀</span>
       </p>
       <p>
         <!-- <a href="/privacy-policy.html">Privacy Policy</a> |
         <a href="/terms-of-service.html">Terms of Service</a> |
-        <a href="/refund-policy.html">Refund Policy</a> | -->
-        <a href="/support.html">Support</a>
+        <a href="/refund-policy.html">Refund Policy</a> |
+        <a href="/support.html">Support</a> -->
       </p>
     </footer>
   </div>
