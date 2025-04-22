@@ -3,6 +3,7 @@
     <header class="contain flex justify-end items-center h-20">
       <nav class="hidden md:flex items-center gap-3 text-green">
         <g-link class="hover:underline border-r-2 border-dashed border-green pr-4" to="/">Home</g-link>
+        <g-link class="hover:underline border-r-2 border-dashed border-green pr-4" to="/projects/">Projects</g-link>
         <g-link class="hover:underline" to="/bookmarks/">Bookmarks</g-link>
       </nav>
     </header>
