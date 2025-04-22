@@ -52,25 +52,36 @@
           <div class="flex flex-col gap-3">
             <article class="flex md:flex-row flex-col md:items-center items-start md:gap-10 gap-0 md:pb-3 pb-5">
               <p class="text-dimGreyAlt">09 Feb 2024</p>
-              <a href="https://dev.to/jbhv12/oauth-terms-explained-in-one-sentence-2all" class="text-dimGrey decoration-cuppy underline underline-offset-4">
+              <a
+                href="https://dev.to/jbhv12/oauth-terms-explained-in-one-sentence-2all"
+                class="text-dimGrey decoration-cuppy underline underline-offset-4"
+                target="_blank" rel="noopener noreferrer"
+              >
                 OAuth Terms Explained in One Sentence
               </a>
             </article>
-            
+
             <article class="flex md:flex-row flex-col md:items-center items-start md:gap-10 gap-0 md:pb-3 pb-5">
               <p class="text-dimGreyAlt">15 Dec 2023</p>
-              <a href="https://dev.to/jbhv12/red-jingles-a-holiday-theme-based-ai-chatbot-5fl8" class="text-dimGrey decoration-cuppy underline underline-offset-4">
+              <a
+                href="https://dev.to/jbhv12/red-jingles-a-holiday-theme-based-ai-chatbot-5fl8"
+                class="text-dimGrey decoration-cuppy underline underline-offset-4"
+                target="_blank" rel="noopener noreferrer"
+              >
                 Scaling Cheer: A Deep Dive into the Architecture of Red Jingles AI Chatbot
               </a>
             </article>
 
-             <article class="flex md:flex-row flex-col md:items-center items-start md:gap-10 gap-0 md:pb-3 pb-5">
+            <article class="flex md:flex-row flex-col md:items-center items-start md:gap-10 gap-0 md:pb-3 pb-5">
               <p class="text-dimGreyAlt">04 Apr 2024</p>
-              <a href="https://dev.to/jbhv12/inversion-of-control-ioc-demystifying-the-familiar-pattern-2003" class="text-dimGrey decoration-cuppy underline underline-offset-4">
+              <a
+                href="https://dev.to/jbhv12/inversion-of-control-ioc-demystifying-the-familiar-pattern-2003"
+                class="text-dimGrey decoration-cuppy underline underline-offset-4"
+                target="_blank" rel="noopener noreferrer"
+              >
                 Inversion of Control (IoC): Demystifying the Familiar Pattern
               </a>
             </article>
-            
           </div>
         </div>
 
