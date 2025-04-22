@@ -5,7 +5,7 @@
        <div class="contain flex flex-col gap-7">
         <h1 class="font-semibold text-4xl">Projects</h1>
         <p class="text-dimGrey leading-8">
-         A collection of my best work — creative, functional, and fun.
+            A glimpse into my side quests and weekend wins, built with love, duct tape, and too many browser tabs.
         </p>
        </div>
    
@@ -71,7 +71,7 @@
          <p class="text-dimGrey">Clean, ATS Optimized, Auto-Generated Resume</p>
    
          <div class="flex gap-5">
-          <a href="https://jay.is-savvy.dev/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-cuppy">
+          <a href="https://github.com/jbhv12/resume/releases/download/2025-04-22/resume-2025-04-22.pdf" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-cuppy">
            <app-icon icon="eye" size="sm"></app-icon>
            Live
           </a>
