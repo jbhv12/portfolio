@@ -43,6 +43,12 @@
                   Goodbye, "free software"; hello, "open source"
                 </a>
               </article>
+
+              <article class="flex md:flex-row flex-col md:items-center items-start md:gap-10 gap-0 md:pb-3 pb-5">
+                <a href="https://blog.jcole.us/2013/01/02/on-learning-innodb-a-journey-to-the-core/" class="text-dimGrey decoration-cuppy underline underline-offset-4">
+                  On learning InnoDB: A journey to the core
+                </a>
+              </article>
             </div>
           </div>
         </main>
