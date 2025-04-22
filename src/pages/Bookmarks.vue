@@ -25,6 +25,24 @@
                   Things you forgot (or never knew) because of React
                 </a>
               </article>
+
+              <article class="flex md:flex-row flex-col md:items-center items-start md:gap-10 gap-0 md:pb-3 pb-5">
+                <a href="https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/" class="text-dimGrey decoration-cuppy underline underline-offset-4">
+                  The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)
+                </a>
+              </article>
+
+              <article class="flex md:flex-row flex-col md:items-center items-start md:gap-10 gap-0 md:pb-3 pb-5">
+                <a href="https://graphics.stanford.edu/~seander/bithacks.html" class="text-dimGrey decoration-cuppy underline underline-offset-4">
+                  Bit Twiddling Hacks
+                </a>
+              </article>
+
+              <article class="flex md:flex-row flex-col md:items-center items-start md:gap-10 gap-0 md:pb-3 pb-5">
+                <a href="http://www.catb.org/~esr/open-source.html" class="text-dimGrey decoration-cuppy underline underline-offset-4">
+                  Goodbye, "free software"; hello, "open source"
+                </a>
+              </article>
             </div>
           </div>
         </main>
