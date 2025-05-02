@@ -42,26 +42,34 @@ export default {
 </script>
 
 <style scoped>
+
 .tabs-container {
   display: flex;
-  align-items: flex-start;
+  flex-direction: column; /* Mobile first */
 }
 
+/* Tabs list */
 .tabs__header {
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  margin-bottom: 12px;
 }
 
+/* Individual tab */
 .tabs__header > li {
-  padding: 12px 24px;
+  padding: 12px 16px;
   border-radius: 8px;
-  margin-bottom: 8px;
+  margin-right: 8px;
+  white-space: nowrap;
   cursor: pointer;
   background-color: #f1f5f9;
   color: #64748b;
   transition: background-color 0.2s ease;
+  flex-shrink: 0;
 }
 
 .tabs__header > li:hover {
@@ -74,10 +82,39 @@ export default {
   font-weight: 600;
 }
 
+/* Tab content */
 .tab-content {
-  flex: 1;
   background-color: #ffffff;
   padding: 16px;
   border-radius: 8px;
 }
+
+/* Desktop layout */
+@media (min-width: 768px) {
+  .tabs-container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .tabs__header {
+    flex-direction: column;
+    width: 150px; /* Fixed width for vertical tab list */
+    margin-right: 20px;
+    margin-bottom: 0;
+    overflow-x: visible;
+    overflow-y: auto;
+    max-height: 100%;
+  }
+
+  .tabs__header > li {
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+
+  .tab-content {
+    flex: 1;
+    min-width: 0; /* Prevent overflow issues */
+  }
+}
+
 </style>

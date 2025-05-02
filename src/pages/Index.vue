@@ -115,18 +115,7 @@
 
 
 <div style="margin-top: 10px; align-self: flex-start; display: flex; align-items: flex-end;">
-  <button style="background-color: #00B300;
-                 border: none;
-                 color: black;
-                 padding: 10px 20px;
-                 text-align: center;
-                 text-decoration: none;
-                 font-size: 16px;
-                 cursor: pointer;">
-    <!-- <a href="https://github.com/jbhv12/resume/releases/download/latest/jay-cv.pdf" style="color: black; text-decoration: none;">Download Full CV</a> -->
-    <a href="https://calendly.com/jbhv12" target="_blank" style="color: black; text-decoration: none;">Let's Talk!</a>
-  </button>   
-
+  
   <span style="margin-left: 10px;
                font-size: 12px;
                color: #00FF52; 
@@ -153,7 +142,7 @@
         <div class="contain mt-5">
           <div class="mb-5">
             <h2 class="text-xl font-semibold text-textPrimary">Lets's Connect!</h2>
-            <p class="mt-5 text-textPrimary leading-8">Feel free to reach out. Shoot me an <a href="mailto:hi@jay-is-savvy.dev" class="decoration-primaryAccent underline underline-offset-4">email</a> or <a href="https://calendly.com/jbhv12" target="_blank" class="decoration-primaryAccent underline underline-offset-4">schedule a call</a>.</p>
+            <p class="mt-5 text-textPrimary leading-8">Feel free to reach out. Shoot me an <a href="mailto:hi@jay-is-savvy.dev" class="decoration-primaryAccent underline underline-offset-4">email</a> or <a href="https://cal.com/jbhv12" target="_blank" class="decoration-primaryAccent underline underline-offset-4">schedule a call</a>.</p>
             <p class="mt-5 text-textPrimary leading-8">Looking for mentorship? Connect with me on <a href="https://adplist.org/mentors/jay-bhavsar" target="_blank" class="decoration-primaryAccent underline underline-offset-4">ADPList</a> — it's free!</p>
           </div>
         </div>
