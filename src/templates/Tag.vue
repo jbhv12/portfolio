@@ -19,8 +19,8 @@
             "
             :to="post.node.path"
           >
-            <p class="text-dimGreyAlt">{{ post.node.date }}</p>
-            <h2 class="decoration-cuppy underline underline-offset-4">{{ post.node.title }}</h2>
+            <p class="text-textMuted">{{ post.node.date }}</p>
+            <h2 class="decoration-primaryAccent underline underline-offset-4">{{ post.node.title }}</h2>
           </g-link>
         </article>
       </main>

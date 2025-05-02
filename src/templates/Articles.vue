@@ -16,8 +16,8 @@
           <div>
             <h1 class="font-semibold text-2xl mb-5">{{ $page.post.title }}</h1>
 
-            <div class="flex items-center text-dimGrey text-sl">
-              <p class="border-r-2 border-solid border-dimGrey pr-3">
+            <div class="flex items-center text-textPrimary text-sl">
+              <p class="border-r-2 border-solid border-textPrimary pr-3">
                 📅 {{ $page.post.date }}
               </p>
               <p class="pl-3">☕ {{ $page.post.timeToRead }} min read</p>
@@ -29,7 +29,7 @@
           <div class="flex items-center gap-1 mt-3 md:mt-0">
             🏷️
             <g-link
-              class="decoration-cuppy underline underline-offset-4"
+              class="decoration-primaryAccent underline underline-offset-4"
               :to="tag.path"
               v-for="tag in $page.post.tags"
               :key="tag.id"
@@ -39,7 +39,7 @@
           </div>
         </div>
 
-        <main class="text-dimGrey leading-8" v-html="$page.post.content"></main>
+        <main class="text-textPrimary leading-8" v-html="$page.post.content"></main>
       </article>
     </transition>
   </Layout>

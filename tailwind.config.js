@@ -6,10 +6,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'dimGrey': '#C9CACC',
-        'dimGreyAlt': '#6B7280',
-        'green': '#2BBC89',
-        'cuppy': '#D37EA8',
+        'textPrimary': '#1E293B',
+        'textMuted': '#64748B',
+        'navigationColor': '#0057FF',
+        'primaryAccent': '#0057FF',
       },
 
       fontSize: {

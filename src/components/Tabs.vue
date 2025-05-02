@@ -1,10 +1,12 @@
-<template lang="html">
+<template>
   <div class="tabs-container">
-    <ul class='tabs__header'>
-      <li v-for='(tab, index) in tabs'
-        :key='tab.title'
-        @click='selectTab(index)'
-        :class='{"tab__selected": (index == selectedIndex)}'>
+    <ul class="tabs__header">
+      <li
+        v-for="(tab, index) in tabs"
+        :key="tab.title"
+        @click="selectTab(index)"
+        :class="{ 'tab__selected': index === selectedIndex }"
+      >
         {{ tab.title }}
       </li>
     </ul>
@@ -16,16 +18,10 @@
 
 <script>
 export default {
-  props: {
-    mode: {
-      type: String,
-      default: 'light'
-    }
-  },
   data () {
     return {
-      selectedIndex: 0, // the index of the selected tab,
-      tabs: []         // all of the tabs
+      selectedIndex: 0,
+      tabs: []
     }
   },
   created () {
@@ -37,8 +33,6 @@ export default {
   methods: {
     selectTab (i) {
       this.selectedIndex = i
-
-      // loop over all the tabs
       this.tabs.forEach((tab, index) => {
         tab.isActive = (index === i)
       })
@@ -47,78 +41,43 @@ export default {
 }
 </script>
 
-<style lang="css">
-
-  .tabs-container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-
-  ul.tabs__header {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    margin-right: 20px;
-  }
-
-  ul.tabs__header > li {
-    padding: 15px 30px;
-    border-radius: 10px;
-    margin-bottom: 5px;
-    cursor: pointer;
-    list-style-type: none;
-  }
-
-ul.tabs__header > li.tab__selected::before {
-  content: ">"; /* Add the ">" symbol before the tab name */
-  margin-right: 5px; /* Adjust spacing between the ">" symbol and the tab name */
+<style scoped>
+.tabs-container {
+  display: flex;
+  align-items: flex-start;
 }
 
-ul.tabs__header > li.tab__selected {
-  border-radius: 10px 10px 0 0;
-  border-right: 8px solid transparent;
-  color: #D37EA8
+.tabs__header {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 20px;
 }
 
-  .tab-content {
-    flex: 1;
-  }
+.tabs__header > li {
+  padding: 12px 24px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  background-color: #f1f5f9;
+  color: #64748b;
+  transition: background-color 0.2s ease;
+}
 
-  .tab {
-    color: white;
-    padding: 12px;
-    border-radius: 10px;
-    min-height: 100px; /*//tweak*/ 
-  }
+.tabs__header > li:hover {
+  background-color: #e2e8f0;
+}
 
-  .tabs__light .tab {
-    background-color: #fff;
-  }
+.tabs__header > li.tab__selected {
+  background-color: #ffffff;
+  color: #0057FF;
+  font-weight: 600;
+}
 
-  .tabs__light li {
-    background-color: #ddd;
-    color: #aaa;
-  }
-
-  .tabs__light li.tab__selected {
-    background-color: #fff;
-    color: #83FFB3;
-  }
-
-  .tabs__dark .tab {
-    background-color: #555;
-    color: #eee;
-  }
-
-  .tabs__dark li {
-    background-color: #ddd;
-    color: #aaa;
-  }
-
-  .tabs__dark li.tab__selected {
-    background-color: #555;
-    color: white;
-  }
-
+.tab-content {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 8px;
+}
 </style>

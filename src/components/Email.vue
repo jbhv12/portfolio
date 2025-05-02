@@ -1,5 +1,5 @@
 <template>
-  <div class="inline-container" :style="isValidMessage ? {} : { color: 'red' }"
+  <div class="inline-container" :class="isValidMessage ? 'text-primaryAccent' : 'text-red-600'"
        @mouseenter="setIsActive(false)" @mouseleave="(idx < messages.length) && setIsActive(true)">
     <a :href="isValidMessage ? `mailto:${message}@mldangelo.com` : ''">
       <span>{{ message }}</span>

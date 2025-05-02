@@ -1,15 +1,15 @@
 <template>
   <div>
     <header class="contain flex justify-end items-center h-20">
-      <nav class="hidden md:flex items-center gap-3 text-green">
-        <g-link class="hover:underline border-r-2 border-dashed border-green pr-4" to="/">Home</g-link>
-        <g-link class="hover:underline border-r-2 border-dashed border-green pr-4" to="/projects/">Projects</g-link>
+      <nav class="hidden md:flex items-center gap-3 text-navigationColor">
+        <g-link class="hover:underline border-r-2 border-dashed border-navigationColor pr-4" to="/">Home</g-link>
+        <g-link class="hover:underline border-r-2 border-dashed border-navigationColor pr-4" to="/projects/">Projects</g-link>
         <g-link class="hover:underline" to="/bookmarks/">Bookmarks</g-link>
       </nav>
     </header>
     <slot />
 
-    <footer class="contain flex justify-between mb-5 text-sl text-dimGreyAlt">
+    <footer class="contain flex justify-between mb-5 text-sl text-textMuted">
       <p>
         <span>&copy; 2025 🚀</span>
       </p>

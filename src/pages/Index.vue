@@ -3,10 +3,10 @@
     <transition name="fade" appear>
       <main class="mt-1 mb-14">
         <div class="contain flex flex-col gap-7">
-          <h1 class="font-semibold text-4xl">
+          <h1 class="font-semibold text-4xl text-textPrimary">
             Hey <span class="wave" @click="startAnimation">👋</span>, I'm Jay
           </h1>
-          <p class="text-dimGrey leading-8">
+          <p class="text-textPrimary leading-8">
             I'm a Backend and Cloud Engineer who thrives to craft solutions that are both simple and elegant. 
             I leverage a diverse array of technologies and tools (including AI) to solve the problem at hand.
             I have worked with many teams, small and large, across the globe to solve some of the most complex challenges in tech.
@@ -15,7 +15,7 @@
             
           </p>
           <Email :loopMessage="true" />
-          <div class="flex items-center gap-5 text-dimGrey">
+          <div class="flex items-center gap-5 text-textPrimary">
             <p>Also on:</p>
 
             <a href="https://www.linkedin.com/in/jbhv12" target="_blank">
@@ -45,46 +45,46 @@
 
         <!-- Article List Section -->
         <div class="contain mt-16 flex flex-col gap-3">
-          <a href="https://dev.to/jbhv12" target="_blank" class="font-semibold text-xl">
+          <a href="https://dev.to/jbhv12" target="_blank" class="font-semibold text-xl text-textPrimary">
             Posts
-            <app-icon class="text-dimGrey" icon="link" size="sm"></app-icon>
+            <app-icon class="text-textPrimary" icon="link" size="sm"></app-icon>
           </a>
           <div class="flex flex-col gap-3">
             <article class="flex md:flex-row flex-col md:items-center items-start md:gap-10 gap-0 md:pb-3 pb-5">
-              <p class="text-dimGreyAlt">22 Apr 2025</p>
+              <p class="text-textMuted">22 Apr 2025</p>
               <a
                 href="https://dev.to/jbhv12/how-to-make-the-most-of-a-cheap-ipv6-only-vps-a-guide-for-self-hosting-enthusiasts-1ibg"
-                class="text-dimGrey decoration-cuppy underline underline-offset-4"
+                class="text-textPrimary decoration-primaryAccent underline underline-offset-4"
                 target="_blank" rel="noopener noreferrer"
               >
                 How to Make the Most of a Cheap IPv6-Only VPS
               </a>
             </article>
             <article class="flex md:flex-row flex-col md:items-center items-start md:gap-10 gap-0 md:pb-3 pb-5">
-              <p class="text-dimGreyAlt">04 Apr 2024</p>
+              <p class="text-textMuted">04 Apr 2024</p>
               <a
                 href="https://dev.to/jbhv12/inversion-of-control-ioc-demystifying-the-familiar-pattern-2003"
-                class="text-dimGrey decoration-cuppy underline underline-offset-4"
+                class="text-textPrimary decoration-primaryAccent underline underline-offset-4"
                 target="_blank" rel="noopener noreferrer"
               >
                 Inversion of Control (IoC): Demystifying the Familiar Pattern
               </a>
             </article>
             <article class="flex md:flex-row flex-col md:items-center items-start md:gap-10 gap-0 md:pb-3 pb-5">
-              <p class="text-dimGreyAlt">09 Feb 2024</p>
+              <p class="text-textMuted">09 Feb 2024</p>
               <a
                 href="https://dev.to/jbhv12/oauth-terms-explained-in-one-sentence-2all"
-                class="text-dimGrey decoration-cuppy underline underline-offset-4"
+                class="text-textPrimary decoration-primaryAccent underline underline-offset-4"
                 target="_blank" rel="noopener noreferrer"
               >
                 OAuth Terms Explained in One Sentence
               </a>
             </article>
             <article class="flex md:flex-row flex-col md:items-center items-start md:gap-10 gap-0 md:pb-3 pb-5">
-              <p class="text-dimGreyAlt">15 Dec 2023</p>
+              <p class="text-textMuted">15 Dec 2023</p>
               <a
                 href="https://dev.to/jbhv12/red-jingles-a-holiday-theme-based-ai-chatbot-5fl8"
-                class="text-dimGrey decoration-cuppy underline underline-offset-4"
+                class="text-textPrimary decoration-primaryAccent underline underline-offset-4"
                 target="_blank" rel="noopener noreferrer"
               >
                 Scaling Cheer: A Deep Dive into the Architecture of Red Jingles AI Chatbot
@@ -95,7 +95,7 @@
 
         <!-- Work Experience Section -->
         <div class="contain mt-16 flex flex-col gap-3">
-          <h2 class="text-xl font-semibold">Work Highlights</h2>
+          <h2 class="text-xl font-semibold text-textPrimary">Work Highlights</h2>
           <tabs :mode="mode">
             <tab
               title="QAD"
@@ -152,9 +152,9 @@
         <!-- Technologies List Section -->
         <div class="contain mt-5">
           <div class="mb-5">
-            <h2 class="text-xl font-semibold">Lets's Connect!</h2>
-            <p class="mt-5">Feel free to reach out. Shoot me an <a href="mailto:hi@jay-is-savvy.dev" class="decoration-cuppy underline underline-offset-4">email</a> or <a href="https://calendly.com/jbhv12" target="_blank" class="decoration-cuppy underline underline-offset-4">schedule a call</a>.</p>
-            <p class="mt-5">Looking for mentorship? Connect with me on <a href="https://adplist.org/mentors/jay-bhavsar" target="_blank" class="decoration-cuppy underline underline-offset-4">ADPList</a> — it's free!</p>
+            <h2 class="text-xl font-semibold text-textPrimary">Lets's Connect!</h2>
+            <p class="mt-5 text-textPrimary leading-8">Feel free to reach out. Shoot me an <a href="mailto:hi@jay-is-savvy.dev" class="decoration-primaryAccent underline underline-offset-4">email</a> or <a href="https://calendly.com/jbhv12" target="_blank" class="decoration-primaryAccent underline underline-offset-4">schedule a call</a>.</p>
+            <p class="mt-5 text-textPrimary leading-8">Looking for mentorship? Connect with me on <a href="https://adplist.org/mentors/jay-bhavsar" target="_blank" class="decoration-primaryAccent underline underline-offset-4">ADPList</a> — it's free!</p>
           </div>
         </div>
       </main>

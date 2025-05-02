@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-color: #000000;
+    background-color: #F8FAFC;
     color: #EEEEEE;
 
     @apply antialiased
@@ -57,11 +57,11 @@ body {
 /* Blog styling */
 
 strong {
-  @apply border-dotted border-2 rounded-sm px-1 border-cuppy bg-[#131313]
+  @apply border-dotted border-2 rounded-sm px-1 border-primaryAccent bg-[#131313]
 }
 
 h3 {
-  @apply text-2xl font-bold decoration-cuppy underline underline-offset-8
+  @apply text-2xl font-bold decoration-primaryAccent underline underline-offset-8
 }
 
 pre {
@@ -71,7 +71,7 @@ pre {
 }
 
 li>a {
-  @apply decoration-cuppy underline underline-offset-8
+  @apply decoration-primaryAccent underline underline-offset-8
 }
 
 ul>li {

@@ -3,7 +3,7 @@
     <main class="mb-10 md:h-full h-screen">
       <div class="flex flex-col justify-center items-center">
         <em class="md:text-[15.625rem] text-[10rem]">404!</em>
-        <g-link class="bg-dimGreyAlt py-2 px-3 rounded-sm" to="/">
+        <g-link class="bg-textMuted py-2 px-3 rounded-sm" to="/">
           Go Home 🏠
         </g-link>
       </div>
