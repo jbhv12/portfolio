@@ -3,7 +3,7 @@
      <transition name="fade" appear>
       <main class="mt-1 mb-14">
        <div class="contain flex flex-col gap-7">
-        <h1 class="font-semibold text-4xl">Projects</h1>
+        <h1 class="font-semibold text-4xl text-textPrimary">Projects</h1>
         <p class="text-textPrimary leading-8">
             A glimpse into my side quests and weekend wins, built with love, duct tape, and too many browser tabs.
         </p>
