@@ -10,7 +10,7 @@
     <slot />
 
     <footer class="contain flex justify-between mb-5 text-sl text-textMuted">
-      <p><span>&copy; 2025 🚀</span></p>
+      <p><span>&copy; 2026 🚀</span></p>
        <!-- <a href="/privacy-policy.html">Privacy Policy</a> |
         <a href="/terms-of-service.html">Terms of Service</a> |
         <a href="/refund-policy.html">Refund Policy</a> |
