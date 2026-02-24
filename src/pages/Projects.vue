@@ -9,106 +9,100 @@
         </p>
        </div>
    
-       <div class="contain mt-16 md:grid md:grid-cols-3 md:gap-5 gap-7 flex flex-col">
-        <div class="bg-[#31363B] flex flex-col justify-center gap-3 rounded-sm h-40 pl-3">
-         <h2 class="font-semibold text-xl">My Portfolio</h2>
-         <p class="text-textPrimary">This personal portfolio you're appreciating!</p>
-   
-         <div class="flex gap-5">
-          <a href="https://jay.is-savvy.dev/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent">
+       <div class="contain mt-16 flex flex-col gap-3">
+        <article class="flex flex-col gap-2 md:pb-3 pb-7">
+         <h2 class="font-semibold text-xl text-textPrimary">My Portfolio</h2>
+         <p class="text-textMuted leading-8">This personal portfolio you're appreciating!</p>
+         <div class="flex gap-5 flex-wrap">
+          <a href="https://jay.is-savvy.dev/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent decoration-primaryAccent underline underline-offset-4">
            <app-icon icon="eye" size="sm"></app-icon>
            Live
           </a>
-          <a href="https://github.com/jbhv12/portfolio" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent">
+          <a href="https://github.com/jbhv12/portfolio" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent decoration-primaryAccent underline underline-offset-4">
            <app-icon icon="code-fork" size="sm"></app-icon>
            Code
           </a>
          </div>
-        </div>
-   
-        <div class="bg-[#31363B] flex flex-col justify-center gap-3 rounded-sm h-40 pl-3">
-         <h2 class="font-semibold text-xl">Credible Crypto</h2>
-         <p class="text-textPrimary">Soulbound Non Fungible Testimonials (SNFTs)</p>
-   
-         <div class="flex gap-5">
-          <a href="https://credible-crypto.jay.is-savvy.dev/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent">
+        </article>
+
+        <article class="flex flex-col gap-2 md:pb-3 pb-7">
+         <h2 class="font-semibold text-xl text-textPrimary">Credible Crypto</h2>
+         <p class="text-textMuted leading-8">Soulbound Non Fungible Testimonials (SNFTs)</p>
+         <div class="flex gap-5 flex-wrap">
+          <a href="https://credible-crypto.jay.is-savvy.dev/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent decoration-primaryAccent underline underline-offset-4">
            <app-icon icon="eye" size="sm"></app-icon>
            Live
           </a>
-          <a href="https://github.com/jbhv12/credible-crypto" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent">
+          <a href="https://github.com/jbhv12/credible-crypto" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent decoration-primaryAccent underline underline-offset-4">
            <app-icon icon="code-fork" size="sm"></app-icon>
            Code
           </a>
-          <a href="https://devpost.com/software/credible-crypto" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent">
+          <a href="https://devpost.com/software/credible-crypto" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent decoration-primaryAccent underline underline-offset-4">
            <font-awesome-icon :icon="['fas', 'trophy']" />
            Winner
           </a>
          </div>
-        </div>
-   
-        <div class="bg-[#31363B] flex flex-col justify-center gap-3 rounded-sm h-40 pl-3">
-         <h2 class="font-semibold text-xl">Red Jingles</h2>
-         <p class="text-textPrimary">A theme based AI chatbot focusing on scalability</p>
-   
-         <div class="flex gap-5">
-          <a href="https://credible-crypto.jay.is-savvy.dev/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent">
+        </article>
+
+        <article class="flex flex-col gap-2 md:pb-3 pb-7">
+         <h2 class="font-semibold text-xl text-textPrimary">Red Jingles</h2>
+         <p class="text-textMuted leading-8">A theme based AI chatbot focusing on scalability</p>
+         <div class="flex gap-5 flex-wrap">
+          <a href="https://credible-crypto.jay.is-savvy.dev/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent decoration-primaryAccent underline underline-offset-4">
            <font-awesome-icon :icon="['fas', 'file-lines']" />
            Doc
           </a>
-          <a href="https://github.com/jbhv12/red-jingles" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent">
+          <a href="https://github.com/jbhv12/red-jingles" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent decoration-primaryAccent underline underline-offset-4">
            <app-icon icon="code-fork" size="sm"></app-icon>
            Code
           </a>
-          <a href="https://www.youtube.com/watch?v=iGKpq-T21J8" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent">
+          <a href="https://www.youtube.com/watch?v=iGKpq-T21J8" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent decoration-primaryAccent underline underline-offset-4">
            <font-awesome-icon :icon="['fas', 'trophy']" />
            Winner
           </a>
          </div>
-        </div>
-   
-        <div class="bg-[#31363B] flex flex-col justify-center gap-3 rounded-sm h-40 pl-3">
-         <h2 class="font-semibold text-xl">Resume</h2>
-         <p class="text-textPrimary">Clean, ATS Optimized, Auto-Generated Resume</p>
-   
-         <div class="flex gap-5">
-          <a href="https://github.com/jbhv12/resume/releases/download/2025-04-22/resume-2025-04-22.pdf" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent">
+        </article>
+
+        <article class="flex flex-col gap-2 md:pb-3 pb-7">
+         <h2 class="font-semibold text-xl text-textPrimary">Resume</h2>
+         <p class="text-textMuted leading-8">Clean, ATS Optimized, Auto-Generated Resume</p>
+         <div class="flex gap-5 flex-wrap">
+          <a href="https://github.com/jbhv12/resume/releases/download/2025-04-22/resume-2025-04-22.pdf" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent decoration-primaryAccent underline underline-offset-4">
            <app-icon icon="eye" size="sm"></app-icon>
            Live
           </a>
-          <a href="https://github.com/jbhv12/resume" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent">
+          <a href="https://github.com/jbhv12/resume" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent decoration-primaryAccent underline underline-offset-4">
            <app-icon icon="code-fork" size="sm"></app-icon>
            Code
           </a>
          </div>
-        </div>
-   
-        <div class="bg-[#31363B] flex flex-col justify-center gap-3 rounded-sm h-40 pl-3">
-         <h2 class="font-semibold text-xl">Workouts Tracker API</h2>
-         <p class="text-textPrimary">Showcase of my skills as a cloud developer</p>
-   
-         <div class="flex gap-5">
-          <a href="https://jmb6cgzee2.execute-api.us-west-2.amazonaws.com/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent">
+        </article>
+
+        <article class="flex flex-col gap-2 md:pb-3 pb-7">
+         <h2 class="font-semibold text-xl text-textPrimary">Workouts Tracker API</h2>
+         <p class="text-textMuted leading-8">Showcase of my skills as a cloud developer</p>
+         <div class="flex gap-5 flex-wrap">
+          <a href="https://jmb6cgzee2.execute-api.us-west-2.amazonaws.com/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent decoration-primaryAccent underline underline-offset-4">
            <app-icon icon="eye" size="sm"></app-icon>
            Live
           </a>
-          <a href="https://github.com/jbhv12/serverless-workout-tracker-api" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent">
+          <a href="https://github.com/jbhv12/serverless-workout-tracker-api" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent decoration-primaryAccent underline underline-offset-4">
            <app-icon icon="code-fork" size="sm"></app-icon>
            Code
           </a>
          </div>
-        </div>
-   
-        <div class="bg-[#31363B] flex flex-col justify-center gap-3 rounded-sm h-40 pl-3">
-         <h2 class="font-semibold text-xl">LFS</h2>
-         <p class="text-textPrimary">My custom linux distro made from scratch</p>
-   
-         <div class="flex gap-5">
-          <a href="https://www.linuxfromscratch.org/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent">
+        </article>
+
+        <article class="flex flex-col gap-2 md:pb-3 pb-7">
+         <h2 class="font-semibold text-xl text-textPrimary">LFS</h2>
+         <p class="text-textMuted leading-8">My custom linux distro made from scratch</p>
+         <div class="flex gap-5 flex-wrap">
+          <a href="https://www.linuxfromscratch.org/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent decoration-primaryAccent underline underline-offset-4">
            <font-awesome-icon :icon="['fas', 'file-lines']" />
            Doc
           </a>
          </div>
-        </div>
+        </article>
        </div>
       </main>
      </transition>
