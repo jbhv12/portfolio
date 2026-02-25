@@ -61,7 +61,7 @@
             <a href="https://www.credly.com/badges/c8720cc2-acca-4507-a402-bd7feff16150/public_url" target="_blank" rel="noopener noreferrer" class="aws-badge" title="AWS Certified Solutions Architect - Professional">
               <img src="/aws-certified-solutions-architect-professional.png" alt="AWS Certified Solutions Architect - Professional" />
             </a>
-            <a href="https://www.credly.com/badges/0e5e78f3-44ba-4b62-886f-2aceb38f3c4e/public_url" target="_blank" rel="noopener noreferrer" class="aws-badge" title="AWS Certified Solutions Architect - Professional">
+            <a href="https://www.credly.com/badges/db482e87-c99d-4804-9d67-f49a4ecbeb15/public_url" target="_blank" rel="noopener noreferrer" class="aws-badge" title="AWS Certified Solutions Architect - Professional">
               <img src="/aws-certified-solutions-architect-associate.png" alt="AWS Certified Solutions Architect - Associate" />
             </a>
             <a href="https://www.credly.com/badges/04dc0a64-40b8-4d5d-bc8e-e3e51629d39a/public_url" target="_blank" rel="noopener noreferrer" class="aws-badge" title="AWS Certified Solutions Architect - Professional">
