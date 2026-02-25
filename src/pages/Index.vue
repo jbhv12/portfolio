@@ -71,7 +71,41 @@
           </div>
         </div>
 
-        <!-- Article List Section -->
+        <!-- Work Experience Section -->
+        <div class="contain mt-16 flex flex-col gap-3">
+          <h2 class="text-xl font-semibold text-textPrimary">Work Highlights</h2>
+          <tabs :mode="mode">
+            <tab
+              title="QAD"
+              :roles="[
+                { position: 'Module Lead', itemList: qadItemList1 },
+                { position: 'Principal Software Engineer', itemList: qadItemList2 }
+              ]"
+              company="QAD"
+              companyURL="https://qad.com/"
+            />
+            <tab title="Haiku" :roles="[{ position: 'Lead Cloud Architect and Backend Engineer', itemList: haikuItemList }]" company="Haiku" companyURL="https://haikuinc.io/"/>
+            <tab title="Media.net" :roles="[{ position: 'Senior Software Engineer', itemList: mnetItemList }]" company="Media.net" companyURL="https://www.media.net/" />
+            <tab title="Gartner" :roles="[{ position: 'DevOps Engineer', itemList: gartnerItemList }]" company="Gartner" companyURL="https://gartner.com/" />
+            <tab title="Taskit" :roles="[{ position: 'Backend Developer', itemList: taskitItemList }]" company="Taskit" companyURL="https://task.it/" />
+            <tab title="TCS" :roles="[{ position: 'Research Engineer', itemList: tcsItemList }]" company="TCS" companyURL="https://tcs.com/" />
+          </tabs>
+
+          <div style="margin-top: 10px; align-self: flex-start; display: flex; align-items: flex-end;">
+            
+            <span style="margin-left: 10px;
+                        font-size: 12px;
+                        color: #00FF52; 
+                        position: relative;
+                        bottom: 2px;
+                        line-height: 1;
+                        font-size: 12px;"> 
+              <!-- <a href="https://github.com/jbhv12/resume" target="_blank">See how it's generated!</a> -->
+            </span>
+          </div>
+        </div>
+
+                <!-- Article List Section -->
         <div class="contain mt-16 flex flex-col gap-3">
           <a href="https://dev.to/jbhv12" target="_blank" class="font-semibold text-xl text-textPrimary">
             Posts
@@ -119,45 +153,6 @@
               </a>
             </article>
           </div>
-        </div>
-
-        <!-- Work Experience Section -->
-        <div class="contain mt-16 flex flex-col gap-3">
-          <h2 class="text-xl font-semibold text-textPrimary">Work Highlights</h2>
-          <tabs :mode="mode">
-            <tab
-              title="QAD"
-              :roles="[
-                { position: 'Module Lead', itemList: qadItemList1 },
-                { position: 'Principal Software Engineer', itemList: qadItemList2 }
-              ]"
-              company="QAD"
-              companyURL="https://qad.com/"
-            />
-            <tab title="Haiku" :roles="[{ position: 'Lead Cloud Architect and Backend Engineer', itemList: haikuItemList }]" company="Haiku" companyURL="https://haikuinc.io/"/>
-            <tab title="Media.net" :roles="[{ position: 'Senior Software Engineer', itemList: mnetItemList }]" company="Media.net" companyURL="https://www.media.net/" />
-            <tab title="Gartner" :roles="[{ position: 'DevOps Engineer', itemList: gartnerItemList }]" company="Gartner" companyURL="https://gartner.com/" />
-            <tab title="Taskit" :roles="[{ position: 'Backend Developer', itemList: taskitItemList }]" company="Taskit" companyURL="https://task.it/" />
-            <tab title="TCS" :roles="[{ position: 'Research Engineer', itemList: tcsItemList }]" company="TCS" companyURL="https://tcs.com/" />
-          </tabs>
-
-
-<div style="margin-top: 10px; align-self: flex-start; display: flex; align-items: flex-end;">
-  
-  <span style="margin-left: 10px;
-               font-size: 12px;
-               color: #00FF52; 
-               position: relative;
-               bottom: 2px;
-               line-height: 1;
-               font-size: 12px;"> 
-    <!-- <a href="https://github.com/jbhv12/resume" target="_blank">See how it's generated!</a> -->
-  </span>
-</div>
-
-
-
-  
         </div>
 
         <!-- Technologies List Section -->

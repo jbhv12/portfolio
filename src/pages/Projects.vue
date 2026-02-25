@@ -27,7 +27,7 @@
 
         <article class="flex flex-col gap-2 md:pb-3 pb-7">
          <h2 class="font-semibold text-xl text-textPrimary">Credible Crypto</h2>
-         <p class="text-textMuted leading-8">Soulbound Non Fungible Testimonials (SNFTs)</p>
+         <p class="text-textMuted leading-8">With Soulbound Non Fungible Testimonials (SNFTs) blockchain technology, it offers a groundbreaking solution for authentic and verifiable testimonials. Winner of Lisk Onchain Spring Hackathon! </p>
          <div class="flex gap-5 flex-wrap">
           <a href="https://credible-crypto.jay.is-savvy.dev/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent decoration-primaryAccent underline underline-offset-4">
            <app-icon icon="eye" size="sm"></app-icon>
@@ -46,9 +46,9 @@
 
         <article class="flex flex-col gap-2 md:pb-3 pb-7">
          <h2 class="font-semibold text-xl text-textPrimary">Red Jingles</h2>
-         <p class="text-textMuted leading-8">A theme based AI chatbot focusing on scalability</p>
+         <p class="text-textMuted leading-8">A state-of-the-art holiday theme based AI chatbot focusing on scalability, extensibility and real world applicability. Winner of Serverless Holiday Hackathon 2023. </p>
          <div class="flex gap-5 flex-wrap">
-          <a href="https://credible-crypto.jay.is-savvy.dev/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent decoration-primaryAccent underline underline-offset-4">
+          <a href="https://dev.to/jbhv12/red-jingles-a-holiday-theme-based-ai-chatbot-5fl8" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent decoration-primaryAccent underline underline-offset-4">
            <font-awesome-icon :icon="['fas', 'file-lines']" />
            Doc
           </a>
@@ -65,7 +65,7 @@
 
         <article class="flex flex-col gap-2 md:pb-3 pb-7">
          <h2 class="font-semibold text-xl text-textPrimary">Resume</h2>
-         <p class="text-textMuted leading-8">Clean, ATS Optimized, Auto-Generated Resume</p>
+         <p class="text-textMuted leading-8">The ultimate zero setup, clean, professional and ATS optimized resume!</p>
          <div class="flex gap-5 flex-wrap">
           <a href="https://github.com/jbhv12/resume/releases/download/2025-04-22/resume-2025-04-22.pdf" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent decoration-primaryAccent underline underline-offset-4">
            <app-icon icon="eye" size="sm"></app-icon>
@@ -80,7 +80,7 @@
 
         <article class="flex flex-col gap-2 md:pb-3 pb-7">
          <h2 class="font-semibold text-xl text-textPrimary">Workouts Tracker API</h2>
-         <p class="text-textMuted leading-8">Showcase of my skills as a cloud developer</p>
+         <p class="text-textMuted leading-8">Showcase of my skills as a cloud developer. Created as part of interview assignment.</p>
          <div class="flex gap-5 flex-wrap">
           <a href="https://jmb6cgzee2.execute-api.us-west-2.amazonaws.com/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent decoration-primaryAccent underline underline-offset-4">
            <app-icon icon="eye" size="sm"></app-icon>
@@ -95,7 +95,7 @@
 
         <article class="flex flex-col gap-2 md:pb-3 pb-7">
          <h2 class="font-semibold text-xl text-textPrimary">LFS</h2>
-         <p class="text-textMuted leading-8">My custom linux distro made from scratch</p>
+         <p class="text-textMuted leading-8">My custom hobby linux distro made from scratch</p>
          <div class="flex gap-5 flex-wrap">
           <a href="https://www.linuxfromscratch.org/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primaryAccent decoration-primaryAccent underline underline-offset-4">
            <font-awesome-icon :icon="['fas', 'file-lines']" />
