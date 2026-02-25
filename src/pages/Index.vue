@@ -45,7 +45,7 @@
 
         <!-- Badges Section -->
         <div class="contain mt-16 flex flex-col gap-4">
-          <div class="badges-section justify-center flex flex-wrap gap-4 items-start">
+          <div class="badges-section justify-center flex flex-wrap gap-4 items-center">
             <div class="toptal-badge">
               <div class="tb-h">
                 <div class="tb-a">
@@ -58,6 +58,15 @@
                 </div>
               </div>
             </div>
+            <a href="https://aws.amazon.com/certification/" target="_blank" rel="noopener noreferrer" class="aws-badge" title="AWS Certified Solutions Architect - Professional">
+              <img src="/aws-certified-solutions-architect-professional.png" alt="AWS Certified Solutions Architect - Professional" />
+            </a>
+            <a href="https://aws.amazon.com/certification/" target="_blank" rel="noopener noreferrer" class="aws-badge" title="AWS Certified Solutions Architect - Professional">
+              <img src="/aws-certified-solutions-architect-associate.png" alt="AWS Certified Solutions Architect - Professional" />
+            </a>
+            <a href="https://aws.amazon.com/certification/" target="_blank" rel="noopener noreferrer" class="aws-badge" title="AWS Certified Solutions Architect - Professional">
+              <img src="/professional-data-engineer-certification.png" alt="AWS Certified Solutions Architect - Professional" />
+            </a>
             <!-- Add more badges here -->
           </div>
         </div>
@@ -288,7 +297,7 @@ export default {
 .toptal-badge {
   --tb-h: polygon(50% 0, 100% 24%, 100% 76%, 50% 100%, 0 76%, 0 24%);
   font-family: proxima-nova, Arial, sans-serif;
-  transform: scale(1)
+  transform: scale(0.86)
 }
 
 .toptal-badge .tb-h {
@@ -343,6 +352,22 @@ export default {
   font-weight: 500;
   text-decoration-thickness: 0.5px;
   text-underline-offset: 2px;
+}
+
+/* AWS badge - matched to Toptal badge size and alignment */
+.aws-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.aws-badge img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
 }
 </style>
 
