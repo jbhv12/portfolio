@@ -44,8 +44,8 @@
         </div>
 
         <!-- Badges Section -->
-        <div class="contain mt-16 flex flex-col gap-4">
-          <div class="badges-section justify-center flex flex-wrap gap-4 items-center">
+        <div class="contain mt-16 flex flex-col gap-2">
+          <div class="badges-section justify-left flex flex-wrap gap-3 items-center">
             <div class="toptal-badge">
               <div class="tb-h">
                 <div class="tb-a">
@@ -58,14 +58,14 @@
                 </div>
               </div>
             </div>
-            <a href="https://aws.amazon.com/certification/" target="_blank" rel="noopener noreferrer" class="aws-badge" title="AWS Certified Solutions Architect - Professional">
+            <a href="https://www.credly.com/badges/c8720cc2-acca-4507-a402-bd7feff16150/public_url" target="_blank" rel="noopener noreferrer" class="aws-badge" title="AWS Certified Solutions Architect - Professional">
               <img src="/aws-certified-solutions-architect-professional.png" alt="AWS Certified Solutions Architect - Professional" />
             </a>
-            <a href="https://aws.amazon.com/certification/" target="_blank" rel="noopener noreferrer" class="aws-badge" title="AWS Certified Solutions Architect - Professional">
-              <img src="/aws-certified-solutions-architect-associate.png" alt="AWS Certified Solutions Architect - Professional" />
+            <a href="https://www.credly.com/badges/0e5e78f3-44ba-4b62-886f-2aceb38f3c4e/public_url" target="_blank" rel="noopener noreferrer" class="aws-badge" title="AWS Certified Solutions Architect - Professional">
+              <img src="/aws-certified-solutions-architect-associate.png" alt="AWS Certified Solutions Architect - Associate" />
             </a>
-            <a href="https://aws.amazon.com/certification/" target="_blank" rel="noopener noreferrer" class="aws-badge" title="AWS Certified Solutions Architect - Professional">
-              <img src="/professional-data-engineer-certification.png" alt="AWS Certified Solutions Architect - Professional" />
+            <a href="https://www.credly.com/badges/04dc0a64-40b8-4d5d-bc8e-e3e51629d39a/public_url" target="_blank" rel="noopener noreferrer" class="aws-badge" title="AWS Certified Solutions Architect - Professional">
+              <img src="/professional-data-engineer-certification.png" alt="GCP Data Engineer" />
             </a>
             <!-- Add more badges here -->
           </div>
@@ -297,19 +297,19 @@ export default {
 .toptal-badge {
   --tb-h: polygon(50% 0, 100% 24%, 100% 76%, 50% 100%, 0 76%, 0 24%);
   font-family: proxima-nova, Arial, sans-serif;
-  transform: scale(0.86)
+  transform: scale(0.757)
 }
 
 .toptal-badge .tb-h {
   display: inline-block;
   background: #25a9ef;
-  padding: 6px;
+  padding: 4px;
   clip-path: var(--tb-h);
 }
 
 .toptal-badge .tb-a {
-  width: 200px;
-  padding: 24px 0 40px;
+  width: 160px;
+  padding: 18px 0 28px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -324,19 +324,19 @@ export default {
 
 .toptal-badge .tb-b {
   margin: 0;
-  font-size: 19px;
+  font-size: 15px;
   font-weight: 700;
   line-height: 1;
 }
 
 .toptal-badge .tb-c {
-  width: 120px;
+  width: 95px;
   height: 1px;
   background: #25a9ef;
 }
 
 .toptal-badge .tb-d {
-  font-size: 16px;
+  font-size: 13px;
   margin-bottom: -6px;
 }
 
@@ -344,11 +344,11 @@ export default {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 4px 20px;
+  padding: 3px 14px;
   border-radius: 6px;
   background: #296bff;
   color: #fff;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 500;
   text-decoration-thickness: 0.5px;
   text-underline-offset: 2px;
@@ -359,7 +359,7 @@ export default {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 200px;
+  width: 150px;
   flex-shrink: 0;
 }
 
